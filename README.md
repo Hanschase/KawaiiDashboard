@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/947349ed-4665-476a-b7ca-6cea5f3e4ceb)# HelloPlugin
+# HelloPlugin
 
 <!--
 ## 插件开发者详阅
@@ -41,5 +41,7 @@
 在```LangBot\plugins\KawaiiDashboard\config\bot_qq.json```中修改机器人的QQ号和名称<br>
 重载输入！sys即可获取服务器面板，演示图如下：
 ![image](https://github.com/user-attachments/assets/92db745c-9fe8-4bd0-a7b1-314d8d874b20)
+## 鸣谢
+感谢[KomoriDev](https://github.com/KomoriDev/nonebot-plugin-kawaii-status)大佬提供的模板。
 
 <!-- 插件开发者自行填写插件使用说明 -->
