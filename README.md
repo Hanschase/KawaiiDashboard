@@ -1,4 +1,4 @@
-# HelloPlugin
+![image](https://github.com/user-attachments/assets/947349ed-4665-476a-b7ca-6cea5f3e4ceb)# HelloPlugin
 
 <!--
 ## 插件开发者详阅
@@ -33,10 +33,13 @@
 配置完成 [LangBot](https://github.com/RockChinQ/LangBot) 主程序后使用管理员账号向机器人发送命令即可安装：
 
 ```
-!plugin get <你的插件发布仓库地址>
+!plugin get https://github.com/Hanschase/KawaiiDashboard
 ```
 或查看详细的[插件安装说明](https://docs.langbot.app/plugin/plugin-intro.html#%E6%8F%92%E4%BB%B6%E7%94%A8%E6%B3%95)
 
 ## 使用
+在```LangBot\plugins\KawaiiDashboard\config\bot_qq.json```中修改机器人的QQ号和名称<br>
+重载输入！sys即可获取服务器面板，演示图如下：
+![image](https://github.com/user-attachments/assets/92db745c-9fe8-4bd0-a7b1-314d8d874b20)
 
 <!-- 插件开发者自行填写插件使用说明 -->
