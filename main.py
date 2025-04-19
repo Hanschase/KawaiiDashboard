@@ -17,7 +17,7 @@ class MyPlugin(BasePlugin):
         if not os.path.exists("plugins/KawaiiDashboard/config"):
             os.makedirs("plugins/KawaiiDashboard/config")
         if not os.path.exists("plugins/KawaiiDashboard/config/bot_qq.json"):
-            with open("plugins/KawaiiDashboard/config/bot_qq.json", "w") as f:
+            with open("plugins/KawaiiDashboard/config/bot_qq.json", "w",encoding='utf-8') as f:
                 self.data = {
                     "QQ" : "Please enter your bots QQ",
                     "name" : "BOT"
@@ -25,7 +25,7 @@ class MyPlugin(BasePlugin):
                 json.dump(self.data, f, indent=4)
         else:
             try:
-                with open("plugins/KawaiiDashboard/config/bot_qq.json", "r") as f:
+                with open("plugins/KawaiiDashboard/config/bot_qq.json", "r",encoding='utf-8') as f:
                     self.data = json.load(f)
             except json.JSONDecodeError:
                 self.ap.logger.error("bot_qq.json decoding failed,please check the plugins/KawaiiDashboard/config/bot_qq.json or delete it")
